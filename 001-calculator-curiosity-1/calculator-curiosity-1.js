@@ -21,4 +21,4 @@ const numOnlyEightDigits = x => repeat(x)(acc => acc + eightFollowedByNZeros(x))
     return acc;
 }*/
 
-console.log(numOnlyEightDigits(1))
+console.log(numOnlyEightDigits(2))
