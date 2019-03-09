@@ -32,7 +32,7 @@ p5.js library.
 The result obtained was a page with a slider that increments 
 the number of 8's to do the math.
 
-![alt text](https://raw.githubusercontent.com/renannascimento/life-universe-everything/master/001-calculator-curiosity-1/img/calculatorCuriosity1.png)
+![Webpage image](img/calculatorCuriosity1.png)
 
 The interesting thing here is that the result is a 
 series 
