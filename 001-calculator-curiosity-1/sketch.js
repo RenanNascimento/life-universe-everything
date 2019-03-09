@@ -1,3 +1,5 @@
+const sizeRange = 10;
+
 let font,
   fontsize = 40;
 
@@ -9,7 +11,7 @@ function setup() {
   createCanvas(window.innerWidth, window.innerHeight);
   background(0);
 
-  strokeWeight(5);
+  strokeWeight(1);
   stroke(255);
 
   // Set text characteristics
@@ -17,14 +19,12 @@ function setup() {
   textSize(fontsize);
   textAlign(CENTER, CENTER);
 
-}
-
-function draw() {
-  fill(0);
-  ellipse(200, 200, 80, 80);
-
+ 
   fill(255);
-  let letter = char(48);
-  text(letter, 200, 200);
-
+  let num = sumBy13(multiplyBy8(numOnlyDigitsEight(sizeRange)))+'';
+  let digits = num.match(/\d/g);
+  digits.forEach((d, index) => {
+    text(char(d.charCodeAt(0)), index*100+100, window.innerHeight/2);
+  });
+  
 }
