@@ -56,3 +56,7 @@ And so on...
 However that pattern just goes until you get 
 fourteen 1's. After that the series gets
 messy.
+
+# Setup
+
+Just clone the repo and open index.html
