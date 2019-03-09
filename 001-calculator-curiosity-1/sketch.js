@@ -1,7 +1,12 @@
 function setup() {
-  // put setup code here
+  createCanvas(window.innerWidth, window.innerHeight);
+  background(0);
+
+  strokeWeight(5);
+  stroke(255);
 }
 
 function draw() {
-  ellipse(50, 50, 80, 80);
+  fill(0);
+  ellipse(200, 200, 80, 80);
 }
