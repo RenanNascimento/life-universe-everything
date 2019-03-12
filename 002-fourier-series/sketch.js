@@ -1,4 +1,4 @@
-const theta = 90;
+let theta = 0;
 const diameter = 500;
 const radius = diameter / 2;
 const xCenter = window.innerWidth/2;
@@ -18,4 +18,5 @@ function draw() {
   let xPoint = radius * Math.cos(theta * Math.PI / 180);
   let yPoint = radius * Math.sin(theta * Math.PI / 180);
   line(0, -0, xPoint, -yPoint);
+  theta = theta + 1;
 }
