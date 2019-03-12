@@ -1,0 +1,1 @@
+const fourierCoeff = theta => 4 * Math.sin(theta) / Math.PI;
